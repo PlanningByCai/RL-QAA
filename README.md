@@ -4,6 +4,24 @@ Welcome to the **Pasqal Challenge** simulation code page.
 
 ---
 
+
+## **📌 Code Overview: Optimizing Renewable Energy Distribution Using Quantum Computing**
+
+### **Table of Contents**
+**01_Introduction.ipynb : Characteristics of Renewable Energy Data**
+
+   - How to define QUBO matrix with the data in our problem
+
+   - Various properties of our problem setting
+
+**02_Results.ipynb : Quantum Computing Approaches for Optimization**
+
+   - RL-QAOA: Previous Methodology
+   
+   - Advancements: Constraint RL-QAOA & RL-QAA
+
+---
+
 ## **Reinforcement learning Quantum Adiabatic Algorithm (RL QAA) for Constraint QUBO Problems**
 
 ### **Why RL QAA?**
@@ -157,20 +175,6 @@ Below are the **visualized results** comparing **QAOA vs. QA Layer probability d
 ![image-5.png](images/RL_QAA.png)
 ---
 
-
-## **📌 Code Overview: Optimizing Renewable Energy Distribution Using Quantum Computing**
-
-### **Table of Contents**
-**01_Introduction.ipynb : Characteristics of Renewable Energy Data**
-
-**02_Results.ipynb : Quantum Computing Approaches for Optimization**
-
-   - RL-QAOA: Previous Methodology
-   
-   - Advancements: Constraint RL-QAOA & RL-QAA
-
-
----
 
 ## **How to Use the Simulation Code**
 
