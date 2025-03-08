@@ -10,9 +10,9 @@ Welcome to the **Pasqal Challenge** simulation code page.
 ### **Table of Contents**
 **01_Introduction.ipynb : Characteristics of Renewable Energy Data**
 
-   - How to define QUBO matrix with the data in our problem
+   - How to Define QUBO Matrix with the Data in Our Problem
 
-   - Various properties of our problem setting
+   - Various Properties of Our Problem Setting
 
 **02_Results.ipynb : Quantum Computing Approaches for Optimization**
 
