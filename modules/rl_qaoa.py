@@ -311,8 +311,10 @@ class RL_QAOA:
         except:
             print(abs(np.array(edge_expectations)), self.b[action_space])
             raise ValueError("Invalid input", action_space, abs(np.array(edge_expectations)))
-        interactions = np.exp(interactions)
-        probabilities = interactions/np.sum(interactions)
+        max_value = np.max(interactions)
+        safe_interactions = interactions - max_value 
+        exp_interactions = np.exp(safe_interactions) 
+        probabilities = exp_interactions/np.sum(exp_interactions)
         #probabilities = torch.softmax(torch.tensor(interactions), dim=0).numpy()
         selected_edge_idx = np.random.choice(len(probabilities), p=probabilities)
 

@@ -120,7 +120,7 @@ class Pulse_simulation:
 
 
 
-class PulseSimulationFixed(Pulse_simulation):
+class Pulse_simulation_fixed(Pulse_simulation):
     """
     A fixed-parameter quantum pulse simulation class for solving constrained QUBO problems.
     

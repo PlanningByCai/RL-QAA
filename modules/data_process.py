@@ -452,6 +452,8 @@ def plot_bitstring_counts(input_data, bitstring_counts, label, hamming_weight=No
     # Prepare data
     for key in bitstring_counts.keys():
         count = 0
+        if isinstance(node_weights, int):
+            node_weights = [node_weights]*len(key)
         list_value = [int(bit) for bit in key]
         if hamming_weight is None:
             bit_str[key] = bitstring_counts[key]
@@ -473,3 +475,4 @@ def plot_bitstring_counts(input_data, bitstring_counts, label, hamming_weight=No
     plt.title(label)
     plt.xticks(rotation=90)
     plt.show()
+
