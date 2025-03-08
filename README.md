@@ -39,10 +39,10 @@ QAOA **equally distributed probability mass among all constraint-satisfying solu
 ---
 
 ## **📌 Constraint QUBO in Portfolio Optimization**
-The problem we are solving falls under **Mean-Variance Optimization (MVO)**, which is a fundamental approach in **portfolio optimization**.
+The problem we are solving falls under **Discrete Portfolio Optimization (DPO)**, which is a fundamental approach in **portfolio optimization**.
 
-### **Mean-Variance Optimization (MVO)**
-MVO is used to construct a portfolio that **maximizes returns while minimizing risk**.  
+### **Discrete Portfolio Optimization (DPO)**
+DPO is used to construct a portfolio that **maximizes returns while minimizing risk**.  
 This is typically formulated as a **constraint-based QUBO problem**, where:
 - The **objective function** represents a trade-off between **expected returns and risk (variance)**.
 - The **constraints** ensure valid portfolio allocations (e.g., selecting a fixed number of assets).
