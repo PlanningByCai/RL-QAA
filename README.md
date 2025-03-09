@@ -183,3 +183,10 @@ Below are the **visualized results** comparing **QAOA vs. QA Layer probability d
    ```bash
    git clone https://github.com/your-username/pasqal-challenge.git
    cd pasqal-challenge
+   ```
+
+### **2. Run test all:**
+```bash
+   python3 -m test.test_all
+```
+
